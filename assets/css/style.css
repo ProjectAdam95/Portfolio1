@@ -97,8 +97,17 @@ section {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
+    
 }
+
+/* Styling for 1st project to be larger than others */
+
+.large-project .project-thumbnail {
+    width: 200px;
+    height: 200px;
+}
+
 
 /* Styling for project thumbnails */
 .project-thumbnail {
@@ -109,7 +118,7 @@ section {
     background-color: #ddd;
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 10px;
     border-radius: 10px;
     width: 150px;
     height: 150px;
@@ -176,7 +185,7 @@ form input, form textarea {
     padding: 2em;
     background: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0);
 }
 
 /* Styling for the contact form button */
@@ -202,6 +211,7 @@ form input, form textarea {
     margin: 1em;
     text-decoration: none;
     color: #333;
+    flex-wrap: wrap;
 }
 
 /* Styling for the footer */
@@ -215,7 +225,6 @@ footer {
 footer a {
     color: #fff;
     text-decoration: none;
-    margin: 0 0.5em;
 }
 
 /* Media query for screens with a maximum width of 992px (tablets and smaller laptops) */
@@ -224,26 +233,27 @@ footer a {
         background-color: sandybrown;
         text-align: center;
     }
-    .project-thumbnail,
-    .project-thumbnail:first-child {
-        width: 100%;
-        height: auto;
+
+    .project-thumbnail {
+        max-width: 100%;
     }
 }
 
 /* Media query for screens with a maximum width of 768px (large smartphones and tablets) */
 @media screen and (max-width: 768px) {
-    .project-grid { flex-direction: column; }
-    .project-thumbnail,
-    .project-thumbnail:first-child {
+    .project-grid {
+        flex-direction: column;
+    }
+
+    .project-thumbnail {
         background-color: pink;
-        width: 100%;
-        height: auto;
         border-radius: 5px;
     }
 }
 
 /* Media query for screens with a maximum width of 576px (small smartphones) */
 @media screen and (max-width: 576px) {
-    .skill-icon { background-color: violet; }
+    .skill-icon {
+        background-color: violet;
+    }
 }
