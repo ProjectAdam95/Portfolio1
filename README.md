@@ -63,13 +63,13 @@ Below is a view of the file structure deployed to GitHub.
  - Your contributions are always welcome and greatly appreciated. Here are some ways you can contribute to the project:
 
  1. **Report a bug** <br>
- If you think you have encountered a bug, and I should know about it, feel free to report it [here]() I will look into it and take the necessary steps.
+ If you think you have encountered a bug, and I should know about it, feel free to report it here [here](https://github.com/ProjectAdam95/Portfolio101/issues). I will look into it and take the necessary steps.
  
  2. **Request a feature** <br>
- If you have a feature idea that you think would enhance the project, you can request it [here](), If the feature is deemed viable, it will be considered for development. 
+ If you have a feature idea that you think would enhance the project, you can request it [here](https://github.com/ProjectAdam95/Portfolio101/issues), If the feature is deemed viable, it will be considered for development. 
 
  3. **Create a pull request** <br>
- The best way to contribute is by creating a pull request. The community will appreciate your efforts. You can start by picking up any open issues from [here]()and submitting a pull request.
+ The best way to contribute is by creating a pull request. The community will appreciate your efforts. You can start by picking up any open issues from [here](https://github.com/ProjectAdam95/Portfolio101/issues)and submitting a pull request.
 
 ##  :page_facing_up: Resources
 Software used
