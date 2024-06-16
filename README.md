@@ -30,6 +30,7 @@ Features include:
 - Contact form so the user can enter a message directed to my email if the person wishes to contact me and make a request.
 - Social media link below the contact form if someone wishes to follow my socials/GitHub or view my LinkeIn (in process of making). All additional information regarding my projects and portfolio can be found on my Github page.
 - The webpage has been made accesible for all screen sizes and devices so users can view a responsive layout that adapts to the viewport.
+- When the website is reduced to below 992 pixels the navigation bar turn salmon colour, when users with a maximum screeen width of 768 px enter the website the navigation bar turns maroon! When users using small smartphones or have a maximum screen size of 578px the skill icons turn violet!.
 
 ###  :file_folder: File Structure
 Below is a view of the file structure deployed to GitHub.
@@ -79,7 +80,7 @@ Software used
 ##  :camera: Gallery
 Below is a preview photo of the website.
 
-Preview1 and Preview2 can be viewed here : https://imgur.com/a/zBIho88
+Preview1 and Preview2 can be viewed here : https://imgur.com/a/3lTdDoH
 
 
 ## :star2: Credit/Acknowledgment
